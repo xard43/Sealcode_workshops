@@ -14,5 +14,3 @@ var el = document.getElementById('paragraph-three');
 el.innerHTML = 'Dzisiaj jest: ' + day + '.' + '<br />' + 'Aktualny miesiąc: ' 
 + month + '.' + '<br />' + 'Mój wiek w latach to: ' + age + '.' + '<br />' 
 + 'Data wyświetlona w momencie wywołania metody: ' + date + '.';
-
-CurrentDate.setMonth(CurrentDate.getMonth() + x);
