@@ -1,10 +1,17 @@
-function bin (b)
+function bin (liczba)
 {
-	var a=(b).toString(2);
-	return a;
+	var b = "";
+	
+	while(liczba != 0)
+	{
+		b=b+(liczba%2).toString();
+		liczba=Math.floor(liczba/2);
+	}
+	console.log(b);
+
 }
 
-var zmienna = 7;
-var c = bin(zmienna);
-console.log(c);
+var zmienna = 2;
+bin(zmienna);
+
 
