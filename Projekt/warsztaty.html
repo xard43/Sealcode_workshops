@@ -8,29 +8,28 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
   
 </head>
-<body>
+<body >
 
   <div id="boxMain">
 
     <header >
-      <h1 id="headerMain">Co masz jeszcze do zrobienia ?</h1>
+      <h1 id="headerMain">Dodaj to co jeszcze musisz zrobić !</h1>
     </header>
-
+	
     <div>
       <div id="box2">
 
         <div id="curDate">
-          Data:
-          <br> 6 października 2017r.
+         
         </div>
 
         <p id="par1">Wpisz zadanie i naciśnij przycisk dodaj</p>
 
       </div>
 
-      <div id="buttonadd">
-        <input type="text"  size="30" name="zadanie" id="spaceTask"/>
-        <input type="submit" name="dodaj" id="buttonAdd"
+      <div id="addTask">
+        <input type="text"  size="30" name="task" id="spaceTask"/>
+        <input type="submit" name="add" id="buttonAdd"
           value="Dodaj" />
       </div>
 
@@ -41,23 +40,9 @@
       <h2 id="headerSecond">Twoje Zadania:</h2>
     </header>
 
-    <div id="task">
-
-      <button type="reset" class="bott">Usuń</button>
-      <input type="checkbox" name="wykonane" class="quest"
-             /> Postrzątać pokój
-      <br />
-
-      <button type="reset" class="bott" >Usuń</button>
-      <input type="checkbox" name="wykonane" class="quest"
-             /> Zrobić zadania na zajęcia z Sealcode :D
-      <br />
-
-      <button type="reset" class="bott">Usuń</button>
-      <input type="checkbox" name="wykonane" class="quest"
-             /> Przygotować się do sprawdzianu
-
-    </div>
+    <ul id="tasks">
+	
+    </ul>
 
   </article>
 
@@ -65,6 +50,13 @@
     <p>Przygotował Marek Sanok w ramach warsztatów Sealcode &copy; Wszelkie prawa zastrzeżone ! </p>
   </footer>
 </div>
+<script type="text/javascript" src="app.js"> </script>
+<script type="text/javascript" src="date.js"> </script>
+<script type="text/javascript" src="modules/tasks.js"> </script>
+<script type="text/javascript" src="modules/new_task.js"> </script>
+<script type="text/javascript" src="modules/tasks_list.js"> </script>
+
+
 </body>
 
 </html>

@@ -5,7 +5,7 @@ html
 body
 {
 	background-image: url(czas.jpg) ;
-  background-size: cover;
+	background-size: cover;
 }
 #boxMain
 {
@@ -55,7 +55,7 @@ body
       height: auto;
       color: #ddd;
 }
-#curDat
+#curDate
 {
     height: auto;
     width: 16.5rem;
@@ -68,6 +68,16 @@ body
 
 }
 
+.taskDone
+{
+	
+	font-weight:bold;
+	
+}
+.taskToDo
+{
+	color:black;
+}
 #spaceTask
 {
   float: left;
@@ -103,7 +113,7 @@ body
   border-radius: 1rem;
   border-color: #006000;
 }
-#task
+#tasks
 {
 
   background-color: #006000;
@@ -114,7 +124,7 @@ body
   font-size: 1rem;
   font-weight: 300;
 }
-.bott
+.delete
 {
   border-radius: 1rem;
   border: double;
@@ -123,9 +133,6 @@ body
   margin:0.3rem;
   background-color: #93c748;
   border-color: #008000;
-}
-.quest{
-  font-weight:100;
 }
 
 #foot{
